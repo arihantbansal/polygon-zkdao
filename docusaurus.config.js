@@ -7,15 +7,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: "Polygon zkDAO",
-	tagline: "zk ftw",
-	url: "https://your-docusaurus-test-site.com",
-	baseUrl: "/",
+	tagline: "promoting zk on Polygon",
+	url: "https://github.com",
+	baseUrl: "/polygon-zkdao/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
-	favicon: "img/favicon.ico",	
+	favicon: "img/favicon.ico",
 
 	organizationName: "arihantbansal",
-	projectName: "polygon-zkdao", 
+	projectName: "polygon-zkdao",
 	deploymentBranch: "gh-pages",
 	trailingSlash: false,
 
@@ -36,8 +36,7 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/arihantbansal/polygon-zkdao",
+					editUrl: "https://github.com/arihantbansal/polygon-zkdao",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),

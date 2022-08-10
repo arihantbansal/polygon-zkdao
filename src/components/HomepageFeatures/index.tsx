@@ -10,32 +10,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
 	{
-		title: "Easy to Use",
-		Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+		title: "Dive into zero-knowledge",
+		Svg: require("@site/static/img/undraw_knowledge.svg").default,
 		description: (
 			<>
-				Docusaurus was designed from the ground up to be easily installed and
-				used to get your website up and running quickly.
+				ZKU is a study group on learning how to build Web3 products using
+				Zero-Knowledge Proof (ZKP) technology. With the goal of launching your
+				very own ZK product in a couple of months, it is never too early to
+				start preparing!
 			</>
 		),
 	},
 	{
-		title: "Focus on What Matters",
-		Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+		title: "Learn from the best",
+		Svg: require("@site/static/img/undraw_teaching.svg").default,
 		description: (
 			<>
-				Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-				ahead and move your docs into the <code>docs</code> directory.
+				ZK Whiteboard sessions from the best devs at Polygon, building the
+				future of zk.
 			</>
 		),
 	},
 	{
-		title: "Powered by React",
-		Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+		title: "Learn at your own pace",
+		Svg: require("@site/static/img/undraw_savings.svg").default,
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can
-				be extended while reusing the same header and footer.
+				There's no time limit to it. Watch recorded sessions, browse through the
+				material and submit assignments as you please. And the best part, get
+				rewarded for it!
 			</>
 		),
 	},
